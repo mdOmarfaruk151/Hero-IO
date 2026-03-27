@@ -125,21 +125,39 @@ Hero IO/
 - Installation state persists after refresh
 - Search filters apps by title in real time
 
-## How To Run
+## How To Run Locally After Cloning
 
-1. Install dependencies:
+1. Clone the repository:
+
+```bash
+git clone https://github.com/mdOmarfaruk151/Hero-IO.git
+```
+
+2. Move into the project folder:
+
+```bash
+cd Hero-IO
+```
+
+3. Install dependencies:
 
 ```bash
 npm install
 ```
 
-2. Start the development server:
+4. Start the development server:
 
 ```bash
 npm run dev
 ```
 
-3. Open the local URL shown by Vite, usually:
+If PowerShell blocks `npm`, use:
+
+```bash
+npm.cmd run dev
+```
+
+5. Open the local URL shown by Vite, usually:
 
 ```text
 http://localhost:5173
